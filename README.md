@@ -91,12 +91,26 @@ Preview
 <img width="1910" height="898" alt="image" src="https://github.com/user-attachments/assets/3baa665d-5922-416e-ba67-81957488a5eb" />
 <img width="1908" height="901" alt="image" src="https://github.com/user-attachments/assets/2b376f3e-f004-438b-a26c-d67c8852815c" />
 
-
-
 **Application Features:**
 * **Input Interface:** User-friendly sidebar for entering customer data.
 * **Real-time Prediction:** Instant classification (Churn vs. Stay).
 * **Probability Score:** Displays the model's confidence level for the prediction.
+
+
+## Business Intelligence Dashboard
+
+In addition to the Machine Learning prediction model, this project features an interactive dashboard built with **Tableau**. This dashboard serves as a strategic monitoring tool for management to understand churn dynamics through comprehensive visual exploration.
+
+**Access Link:** [Tableau Public - E-Commerce Churn Monitoring Dashboard](https://public.tableau.com/app/profile/shadrina.putri.nabila/viz/dashboardfinprow/Dashboard?publish=yes)
+
+### Objectives and Key Features
+
+1. **Executive Summary**: Provides an instant view of Key Performance Indicators (KPIs) such as total customer base, average churn rate, and customer demographics for rapid decision-making.
+2. **Behavioral Insights**: Visualizes the correlation between Customer Satisfaction Scores, Warehouse-to-Home distance, and Tenure against customer loyalty.
+3. **Risk Segment Identification**: Maps out customer profiles with the highest vulnerability to churn based on complaint history and monthly transaction patterns.
+4. **Loyalty Program Evaluation**: Analyzes the effectiveness of coupon usage and cashback offerings in reducing churn rates across various product categories.
+
+By integrating the **Streamlit** prediction model with **Tableau** monitoring, the company possesses an end-to-end solution: the model predicts *who* is likely to leave, while the dashboard provides a deep understanding of *why* the phenomenon is occurring.
 
 ## Repository Structure
 
