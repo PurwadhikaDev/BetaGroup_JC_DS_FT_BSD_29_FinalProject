@@ -209,7 +209,7 @@ This project develops a predictive machine learning model to identify customers 
 Remedial Final Project 26/
 ├── README.md                              # This file
 ├── Ecommerce_Analysis-Main.ipynb           # Main analysis notebook
-├── Streamlit_Churn_App/                                 # Trained model artifacts
+├── model/                                 # Trained model artifacts
 │   ├── churn_prediction_model.pkl
 |   ├── requirements.txt
 └── Dataset/
