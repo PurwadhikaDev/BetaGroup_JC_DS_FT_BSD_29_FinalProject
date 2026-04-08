@@ -13,6 +13,9 @@ This project develops a predictive machine learning model to identify customers 
 ## 🎯 Business Problem
 
 ### The Crisis
+
+<img width="981" height="695" alt="image" src="https://github.com/user-attachments/assets/d23c0124-3239-4c6f-bf8f-57b948d87d57" />
+
 - **Churn Rate:** 16.6% of active customers are leaving the platform monthly
 - **Annual Revenue Loss:** ₹2-3 Billion annually per customer segment
 - **Inefficient Marketing:** Promotions distributed broadly without targeting at-risk customers
@@ -42,7 +45,6 @@ This project develops a predictive machine learning model to identify customers 
 ### Success Metrics
 - **Recall ≥ 85%:** Detect 85%+ of customers who will actually churn
 - **Precision ≥ 50%:** Minimize false alarms while maintaining high detection rate
-- **ROI Impact:** Enable 30-50% improvement in loyalty campaign effectiveness
 - **Cost Savings:** Reduce marketing waste by ₹150-200M annually
 
 ---
@@ -167,8 +169,6 @@ This project develops a predictive machine learning model to identify customers 
 |--------|---------|---|
 | **Recall** | TP/(TP+FN) | Catches all TRUE churners; minimize missed customers |
 | **Precision** | TP/(TP+FP) | Of predicted churn, how many are correct; avoid false alarms |
-| **F1-Score** | 2×(Precision×Recall)/(Precision+Recall) | Balanced measure of both |
-| **ROC-AUC** | Area under ROC curve | Performance across thresholds |
 | **Confusion Matrix** | TP, TN, FP, FN | Business cost analysis |
 
 **Business Cost of Prediction Errors:**
@@ -186,7 +186,6 @@ This project develops a predictive machine learning model to identify customers 
 ### Target Performance Levels
 - **Recall:** ≥ 85% (detect 714+ of 841 actual churners)
 - **Precision:** ≥ 50-60% (manage false alarm rate)
-- **ROC-AUC:** ≥ 0.80 (good discrimination across thresholds)
 
 ### Financial Impact (at Recall 85%)
 
@@ -415,6 +414,22 @@ jupyter notebook
   - Logistics metrics (Tier 3 barrier)
 
 ---
+
+## Tableau Interactive Dashboard 
+
+- Link Dashboard: https://public.tableau.com/app/profile/muhamad.farhan.budiana/viz/ECommerce-Dashboard-MuhamadFarhanBudiana/Dashboard1?publish=yes
+
+<img width="1336" height="749" alt="Screenshot 2026-04-08 172509" src="https://github.com/user-attachments/assets/9bb31f6d-fe6f-4e88-8af6-fe5b0310fdda" />
+
+---
+
+## Streamlit Website: Churn Prediction
+
+- Link Website: https://farhanbud-ecommerce-churn-analysis-website.streamlit.app/
+
+<img width="1897" height="901" alt="Screenshot 2026-04-08 173030" src="https://github.com/user-attachments/assets/71c0199c-5f26-4ecf-8615-36ffcd480390" />
+<img width="1767" height="770" alt="Screenshot 2026-04-08 173055" src="https://github.com/user-attachments/assets/03383853-9271-4d96-b0f8-02136406892b" />
+
 
 ## 📝 Author Notes
 
