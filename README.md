@@ -1,3 +1,6 @@
+Remedial Final Project 
+- Muhamad Farhan Budiana JCDSBSDAM29-002
+
 # E-Commerce Customer Churn Prediction: Data-Driven Retention Strategy
 
 ## 📌 Executive Summary
