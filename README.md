@@ -209,16 +209,12 @@ This project develops a predictive machine learning model to identify customers 
 Remedial Final Project 26/
 ├── README.md                              # This file
 ├── Ecommerce_Analysis-Main.ipynb           # Main analysis notebook
-├── ECommerceDataset.xlsx                   # Raw dataset
-├── ecommerce_churn_cleaned.csv             # Cleaned dataset
-├── models/                                 # Trained model artifacts
+├── Streamlit_Churn_App/                                 # Trained model artifacts
 │   ├── churn_prediction_model.pkl
-│   ├── scaler.pkl
-│   └── encoder.pkl
-└── data/
+|   ├── requirements.txt
+└── Dataset/
     ├── ECommerceDataset.xlsx               # Source data
-    ├── ecommerce_churn_cleaned.csv         # Post-cleaning data
-    └── feature_engineered.csv              # After feature engineering
+    ├── Ecommerce_Churn_Predictive_Tableau         # Post-cleaning data
 ```
 
 ---
@@ -372,7 +368,6 @@ jupyter notebook
 | **Retention Rate** | 83.4% | 85-86% | +1.6-2.6 percentage points |
 | **Customers Saved/Month** | 0 | 50-65 | ~600-780/year |
 | **Annual Retention Value** | ₹0 | ₹1.4B+ | Direct revenue protection |
-| **Marketing ROI** | Current | +40-50% | Better spend efficiency |
 | **CAC Savings** | ₹0 | ₹3.5B+ | Avoid replacement cost |
 
 ---
@@ -401,7 +396,7 @@ jupyter notebook
 - **Week 3-4:** Staff training and campaign setup
 - **Week 5-8:** Pilot campaign on small customer segment
 - **Week 9-12:** Scale to full customer base with monitoring
-- **Ongoing:** Monitor model performance and retrain monthly
+- **12-Deadline:** Monitor model performance and retrain monthly
 
 ---
 
@@ -447,6 +442,9 @@ This project demonstrates the power of predictive analytics in solving real busi
 ## 📄 License
 
 This project is part of Purwadhika Data Science Capstone (Remedial) - 2026.
+Final Project by Muhamad Farhan Budiana JCDSBSDAM29-002
+
+All Rights Reserved
 
 ---
 
@@ -456,8 +454,6 @@ For technical questions, refer to the Jupyter notebook with detailed explanation
 For business implementation, contact the CRM/Marketing department with specific segment recommendations.
 
 **Last Updated:** April 2026
-**Status:** Analysis Complete | Model Development In Progress
+**Status:** Analysis Complete 
 
 ---
-
-**Happy Analysis! 🚀**
